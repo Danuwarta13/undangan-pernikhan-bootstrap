@@ -93,37 +93,37 @@ document.getElementById("commentForm").addEventListener("submit", function (even
 });
 
 // Ucapan
-document.getElementById("showCommentsBtn").addEventListener("click", function () {
-  let commentList = document.getElementById("commentList");
+// document.getElementById("showCommentsBtn").addEventListener("click", function () {
+//   let commentList = document.getElementById("commentList");
 
-  if (commentList.classList.contains("show")) {
-    commentList.classList.remove("show");
+//   if (commentList.classList.contains("show")) {
+//     commentList.classList.remove("show");
 
-    // Delay untuk menyembunyikan elemen setelah animasi selesai
-    setTimeout(() => {
-      commentList.style.display = "none";
-    }, 400);
-  } else {
-    // Jika belum ada komentar, ambil dari server
-    if (commentList.innerHTML.trim() === "") {
-      fetch("get_comments.php")
-        .then((response) => response.text())
-        .then((data) => {
-          commentList.innerHTML = `<div class="comment-container">${data}</div>`;
-          commentList.style.display = "block";
+//     // Delay untuk menyembunyikan elemen setelah animasi selesai
+//     setTimeout(() => {
+//       commentList.style.display = "none";
+//     }, 400);
+//   } else {
+//     // Jika belum ada komentar, ambil dari server
+//     if (commentList.innerHTML.trim() === "") {
+//       fetch("get_comments.php")
+//         .then((response) => response.text())
+//         .then((data) => {
+//           commentList.innerHTML = `<div class="comment-container">${data}</div>`;
+//           commentList.style.display = "block";
 
-          // Tambahkan animasi setelah sedikit delay
-          setTimeout(() => {
-            commentList.classList.add("show");
-          }, 10);
-        });
-    } else {
-      commentList.style.display = "block";
+//           // Tambahkan animasi setelah sedikit delay
+//           setTimeout(() => {
+//             commentList.classList.add("show");
+//           }, 10);
+//         });
+//     } else {
+//       commentList.style.display = "block";
 
-      // Tambahkan animasi setelah sedikit delay
-      setTimeout(() => {
-        commentList.classList.add("show");
-      }, 10);
-    }
-  }
-});
+//       // Tambahkan animasi setelah sedikit delay
+//       setTimeout(() => {
+//         commentList.classList.add("show");
+//       }, 10);
+//     }
+//   }
+// });
