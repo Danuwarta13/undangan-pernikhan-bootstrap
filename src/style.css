@@ -82,7 +82,7 @@ body {
 /* Undang */
 .undang {
   height: 100vh;
-  background-image: url(/asset/img/bg-undangan.jpeg);
+  background-image: url(asset/img/bg-undangan.jpeg);
   background-size: cover;
   background-position: center;
 }
