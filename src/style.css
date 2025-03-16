@@ -82,7 +82,7 @@ body {
 /* Undang */
 .undang {
   height: 100vh;
-  background-image: url(/asset/img/bg-undangan.jpeg);
+  background-image: url(../asset/img/bg-undangan.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -155,7 +155,7 @@ body {
 /* Home */
 .home {
   height: 100vh;
-  background-image: url(/asset/img/bg-2-crop.jpeg);
+  background-image: url(../asset/img/bg-2-crop.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -234,7 +234,7 @@ body {
 /* Love */
 .love {
   height: 165vh;
-  background-image: url(/asset/img/bg-love.png);
+  background-image: url(../asset/img/bg-love.png);
   background-position: center;
   background-size: cover;
   margin-top: -40px;
@@ -252,7 +252,7 @@ body {
 }
 
 .love .pria {
-  background-image: url(/asset/img/pria.jpg);
+  background-image: url(../asset/img/pria.jpg);
   background-size: cover;
   background-position: center;
   min-height: 30vh;
@@ -263,7 +263,7 @@ body {
 }
 
 .love .wanita {
-  background-image: url(/asset/img/wanita.jpg);
+  background-image: url(../asset/img/wanita.jpg);
   background-size: cover;
   background-position: center;
   min-height: 30vh;
@@ -347,7 +347,7 @@ body {
 }
 
 .info-date .akad {
-  background-image: url(/asset/img/bg-akad.jpeg);
+  background-image: url(../asset/img/bg-akad.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -392,13 +392,13 @@ body {
 /* Love Story */
 .love-story {
   height: 110vh;
-  background-image: url(/asset/img/bg-love-story.png);
+  background-image: url(../asset/img/bg-love-story.png);
   background-position: center;
   background-size: cover;
 }
 
 .love-story .headings {
-  background-image: url(/asset/img/love-story.jpg);
+  background-image: url(../asset/img/love-story.jpg);
   background-position: center;
   background-size: cover;
   height: 250px;
@@ -440,7 +440,7 @@ body {
 /* Gallery */
 .gallery {
   height: 270vh;
-  background-image: url(/asset/img/bg-love.png);
+  background-image: url(../asset/img/bg-love.png);
   background-position: center;
   background-size: cover;
 }
@@ -477,7 +477,7 @@ body {
 /* ucapan */
 .ucapan {
   height: auto;
-  background-image: url(/asset/img/bg-love-story.png);
+  background-image: url(../asset/img/bg-love-story.png);
   background-position: center;
   background-size: cover;
   padding-top: 2rem;
@@ -549,7 +549,7 @@ body {
 }
 
 .ucapan .gifts .atm-container .atm-card {
-  background-image: url(/asset/img/atm-bg.webp);
+  background-image: url(../asset/img/atm-bg.webp);
   background-position: bottom right;
   background-size: cover;
   width: 100%;
