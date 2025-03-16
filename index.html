@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Undangan Pernikahan-Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&family=Cinzel:wght@400..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Grey+Qo&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Port+Lligat+Sans&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- countDown -->
+    <link rel="stylesheet" href="/src/countdown/dark.css" />
+    <script src="src/countdown/simplyCountdown.umd.js"></script>
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container-utama">
+      <!-- Navigation Bar -->
+      <nav class="fixed-bottom d-flex justify-content-center hidden" id="navbar">
+        <div class="bg-white shadow-lg rounded-pil px-1 py-2 d-flex align-items-center">
+          <a href="#home" class="text-decoration-none text-dark mx-2 d-flex align-items-center justify-content-center box-icon">
+            <div class="icon-box" id="nav-home">
+              <i class="bi bi-house-fill"></i>
+            </div>
+          </a>
+          <a href="#love" class="text-decoration-none text-dark mx-2 d-flex align-items-center justify-content-center box-icon">
+            <div class="icon-box" id="nav-love">
+              <i class="bi bi-heart-fill"></i>
+            </div>
+          </a>
+          <a href="#calendar" class="text-decoration-none text-dark mx-2 d-flex align-items-center justify-content-center box-icon">
+            <div class="icon-box" id="nav-calendar">
+              <i class="bi bi-calendar-event-fill"></i>
+            </div>
+          </a>
+          <a href="#gallery" class="text-decoration-none text-dark mx-2 d-flex align-items-center justify-content-center box-icon">
+            <div class="icon-box" id="nav-gallery">
+              <i class="bi bi-image-fill"></i>
+            </div>
+          </a>
+          <a href="#ucapan" class="text-decoration-none text-dark mx-2 d-flex align-items-center justify-content-center box-icon">
+            <div class="icon-box" id="nav-contat">
+              <i class="bi bi-chat-dots-fill"></i>
+            </div>
+          </a>
+        </div>
+      </nav>
+
+      <!-- Page Sections -->
+      <!-- Undangan -->
+      <section id="undang" class="undang">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center mt-3 foto-undang">
+              <img src="asset/img/undang.jpg" alt="" width="250px" class="rounded-circle" />
+              <div class="row nama-personal">
+                <div class="col" style="text-align: end">
+                  <h2>Y</h2>
+                  <p>Yoga</p>
+                </div>
+                <div class="col" style="text-align: start">
+                  <h2>S</h2>
+                  <p>Sifa</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col text-center dear">
+              <p>Dear,</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-center tamu">
+              <h3>Bapak/Ibu/Saudara/i</h3>
+            </div>
+          </div>
+          <div class="row fixed-bottom">
+            <div class="col justify-content-center d-flex">
+              <a href="#home" class="undangan visible" id="toggle-undangan">
+                <i class="bi bi-book-fill"></i>
+                Buka Undangan
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Home -->
+      <section id="home" class="home">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center head">
+              <p>The Wedding of</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-center hero">
+              <h2>Yoga</h2>
+              <h3>&</h3>
+              <h2>Sifa</h2>
+            </div>
+          </div>
+          <div class="row mt-1">
+            <div class="col text-center ucap">
+              <p>Kami berharap Anda</p>
+              <p>Menjadi bagian dari hari istimewa Kami.</p>
+            </div>
+          </div>
+          <div class="simply-countdown-dark"></div>
+          <div class="row">
+            <div class="col text-center tanggal">
+              <p>Minggu, 30 Maret 2025</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pembuka -->
+      <section id="pembuka" class="pembuka">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="container text-center mt-5">
+                <img data-aos="fade-up" src="asset/img/pembuka-icon.webp" alt="" width="48px" />
+              </div>
+              <h2 data-aos="fade-up">Our Special Day</h2>
+              <h6 data-aos="fade-up">
+                “Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.
+                Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.”
+              </h6>
+              <p data-aos="fade-up">(QS. Ar-Rum 21)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Love -->
+      <section id="love" class="love">
+        <div class="container">
+          <!-- Foto Pria -->
+          <div class="row" data-aos="fade-right">
+            <div class="col justify-content-center d-flex mt-5">
+              <div class="card w-50">
+                <div class="card-body">
+                  <h5 class="card-title text-center" data-aos="zoom-in">The Groom</h5>
+                  <div class="pria">
+                    <p>Yoga</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Info Pria -->
+          <div class="row justify-content-center mt-3">
+            <div class="col-md-8 pria-info text-center">
+              <h2>Yogi Tyas Anggono</h2>
+              <h6><strong>Putra Kedua Dari :</strong></h6>
+              <p>
+                Bapak Trisno widodo <br />
+                & <br />
+                Ibu Trisno widodo
+              </p>
+              <span class="pria-instagram">
+                <a href="">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </span>
+              <h3>&</h3>
+            </div>
+          </div>
+          <!-- Foto Wanita -->
+          <div class="row">
+            <div class="col justify-content-center d-flex mt-4">
+              <div class="card w-50">
+                <div class="card-body">
+                  <h5 class="card-title text-center">The Bride</h5>
+                  <div class="wanita">
+                    <p>Sifa</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Info Wanita -->
+          <div class="row justify-content-center mt-3 mb-3">
+            <div class="col-md-8 pria-info text-center">
+              <h2>Sifa Purwanti</h2>
+              <h6><strong>Putra Kedua Dari :</strong></h6>
+              <p>
+                Bapak Jumri <br />
+                & <br />
+                Ibu Sri Sutanti
+              </p>
+              <span class="pria-instagram">
+                <a href="">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Info -->
+      <section id="calendar" class="info-date">
+        <div class="container">
+          <!-- Text -->
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="row mt-5 save">
+                <p>SAVE</p>
+                <h5>&nbsp; &nbsp; &nbsp; The Date</h5>
+                <div class="garis"></div>
+                <!-- <div class="row the-date">
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <!-- Akad -->
+          <div class="row justify-content-center">
+            <div class="col justify-content-center d-flex">
+              <div class="card w-55 mt-5 akad">
+                <div class="card-body text-center mb-5">
+                  <img src="asset/img/akad.jpg" alt="akad" width="100%" class="rounded" />
+                  <h5 class="card-title">AKAD NIKAH</h5>
+                  <div class="row">
+                    <div class="col tanggal">
+                      <p>Minggu, 30 maret 2025</p>
+                      <div class="garis"></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col jam">
+                      <p>Pukul : 09:00 WIB</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col lokasi">
+                      <p>Alamat : Cekelan rt 03/02 , kauman , wonosegoro,Boyolali</p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    Lihat Lokasi
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Resepsi -->
+          <div class="row justify-content-center">
+            <div class="col justify-content-center d-flex">
+              <div class="card w-55 mt-5 akad">
+                <div class="card-body text-center mb-5">
+                  <img src="asset/img/resepsi.jpg" alt="akad" width="100%" class="rounded" />
+                  <h5 class="card-title">RESEPSI</h5>
+                  <div class="row">
+                    <div class="col tanggal">
+                      <p>Minggu, 30 maret 2025</p>
+                      <div class="garis"></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col jam">
+                      <p>Pukul : 09:00 WIB</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col lokasi">
+                      <p>Alamat : Cekelan rt 03/02 , kauman , wonosegoro,Boyolali</p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    Lihat Lokasi
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Love Story -->
+      <section class="love-story">
+        <div class="container">
+          <div class="row">
+            <div class="col justify-content-center d-flex mt-5">
+              <div class="headings">
+                <h3>Love Story</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row text-1 mt-5 justify-content-center">
+            <div class="col-md-10">
+              <h5>6 Desember 2022</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id recusandae, quos ipsum sequi similique.</p>
+            </div>
+          </div>
+          <div class="row text-1 mt-2 justify-content-center">
+            <div class="col-md-10">
+              <h5>6 Desember 2022</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id recusandae, quos ipsum sequi similique.</p>
+            </div>
+          </div>
+          <div class="row text-1 mt-2 justify-content-center">
+            <div class="col-md-10">
+              <h5>6 Desember 2022</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id recusandae, quos ipsum sequi similique.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section id="gallery" class="gallery">
+        <div class="container">
+          <!-- Heading -->
+          <div class="row text-center">
+            <div class="col">
+              <div class="row mt-5 our">
+                <p>Our</p>
+                <h5>&nbsp; &nbsp; &nbsp;Gallery</h5>
+                <div class="garis"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Pict -->
+          <div class="row mb-3">
+            <div class="col">
+              <div class="pict1">
+                <a href="asset/img/gallery/foto4.jpg" id="single_image" data-fancybox="gallerys">
+                  <img src="asset/img/gallery/foto4.jpg" alt="" width="100%" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col">
+              <div class="pict2">
+                <div class="row">
+                  <div class="col-md-6">
+                    <a href="asset/img/gallery/foto1.jpg" data-fancybox="gallerys">
+                      <img src="asset/img/gallery/foto1.jpg" alt="" width="100%" />
+                    </a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="asset/img/gallery/foto2.jpg" data-fancybox="gallerys">
+                      <img src="asset/img/gallery/foto2.jpg" alt="" width="100%" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col">
+              <div class="pict1">
+                <a href="asset/img/gallery/foto3.jpg" id="single_image" data-fancybox="gallerys">
+                  <img src="asset/img/gallery/foto3.jpg" alt="" width="100%" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col">
+              <div class="pict1">
+                <a href="asset/img/gallery/foto5.jpg" id="single_image" data-fancybox="gallerys">
+                  <img src="asset/img/gallery/foto5.jpg" alt="" width="100%" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Ucapan -->
+      <section id="ucapan" class="ucapan">
+        <div class="container">
+          <div class="gifts">
+            <div class="row">
+              <div class="col d-flex justify-content-center">
+                <img src="/asset/img/pembuka-icon.webp" alt="" width="38px" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col head-gifts d-flex justify-content-center">
+                <h3>Wedding Gifts</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col body-gifts">
+                <p>Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Dan jika memberi adalah ungakapan tanda kasih Anda, Anda dapat memberi kado secara cashless.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col footer-gifts">
+                <button onclick="toggleATM()">
+                  <i class="bi bi-gift-fill"></i>
+                  Klik Disini
+                </button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col d-flex justify-content-center">
+                <div class="row atm-container" id="atmContainer">
+                  <div class="atm-card">
+                    <div class="logo-atm">
+                      <img src="asset/img/BCA_logo_Bank_Central_Asia.png" alt="logo-atm" />
+                    </div>
+                    <div class="chip-atm">
+                      <img src="asset/img/chip-atm.png" alt="chip-atm" />
+                    </div>
+                    <div class="nomor-atm">
+                      <p id="rekening">1234567890</p>
+                    </div>
+                    <div class="nama-atm">
+                      <p>HABIB</p>
+                    </div>
+                    <div class="copy-atm">
+                      <button class="copy" onclick="copyText()">
+                        <i class="bi bi-copy"></i>
+                        Copy
+                      </button>
+                    </div>
+                  </div>
+                  <div class="atm-card">
+                    <div class="logo-atm">
+                      <img src="asset/img/Logo_dana.png" alt="logo-atm" />
+                    </div>
+                    <div class="chip-atm">
+                      <img src="" alt="" />
+                    </div>
+                    <div class="nomor-atm">
+                      <p id="rekening">1234567890</p>
+                    </div>
+                    <div class="nama-atm">
+                      <p>HABIB</p>
+                    </div>
+                    <div class="copy-atm">
+                      <button class="copy" onclick="copyText()">
+                        <i class="bi bi-copy"></i>
+                        Copy
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gifts mt-3">
+            <div class="row">
+              <div class="col d-flex justify-content-center">
+                <img src="/asset/img/pembuka-icon.webp" alt="" width="38px" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col head-gifts d-flex justify-content-center">
+                <h3>Ucapan Sesuatu</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col d-flex justify-content-center align-items-center">
+                <div class="hadir d-flex flex-column align-items-center">
+                  <span id="countHadir"><?php echo $count_hadir; ?></span>
+                  <span>hadir</span>
+                </div>
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <div class="tidak-hadir d-flex flex-column align-items-center">
+                  <span id="countTidakHadir"><?php echo $count_tidak_hadir; ?></span>
+                  <span>tidak hadir</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <form id="commentForm" class="form-ucapan">
+                  <input type="text" id="name" placeholder="Nama" required />
+                  <textarea id="message" placeholder="Ucapan" required></textarea>
+                  <select id="attendance" required>
+                    <option value="">Konfirmasi Kehadiran</option>
+                    <option value="Hadir">Hadir</option>
+                    <option value="Tidak Hadir">Tidak Hadir</option>
+                  </select>
+                  <button type="submit">Kirim</button>
+                </form>
+
+                <p class="show-comments" id="showCommentsBtn">Lihat semua ucapan</p>
+
+                <div id="commentList"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- countDown -->
+    <script>
+      simplyCountdown(".simply-countdown-dark", {
+        year: 2025, // Target year (required)
+        month: 4, // Target month [1-12] (required)
+        day: 6, // Target day [1-31] (required)
+        hours: 0, // Target hour [0-23], default: 0
+        minutes: 0, // Target minute [0-59], default: 0
+        seconds: 0, // Target second [0-59], default: 0
+        words: {
+          // Custom labels, with lambda for plurals
+          days: { root: "Hari", lambda: (root, n) => (n > 1 ? root + "" : root) },
+          hours: { root: "Jam", lambda: (root, n) => (n > 1 ? root + "" : root) },
+          minutes: { root: "Menit", lambda: (root, n) => (n > 1 ? root + "" : root) },
+          seconds: { root: "Detik", lambda: (root, n) => (n > 1 ? root + "" : root) },
+        },
+      });
+    </script>
+
+    <!-- Fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 550,
+      });
+    </script>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
